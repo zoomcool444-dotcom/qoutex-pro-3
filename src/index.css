@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Full HD Razor-Sharp Display & Antialiasing */
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+/* Crisp Ultra-Thin Dark Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #10141d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252e42;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4763;
+}
+
+/* High-Definition Glow Utilities */
+.hd-glow-green {
+  box-shadow: 0 0 16px rgba(0, 176, 116, 0.35);
+}
+
+.hd-glow-red {
+  box-shadow: 0 0 16px rgba(255, 71, 87, 0.35);
+}
+
+.hd-glow-blue {
+  box-shadow: 0 0 16px rgba(0, 112, 243, 0.35);
+}
+
+/* Subtle Canvas Grid High Definition Rendering */
+canvas {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}

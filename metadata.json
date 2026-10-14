@@ -1,0 +1,6 @@
+{
+  "name": "Quotex Pro Web Trading Platform",
+  "description": "Professional Quotex Pro binary options & digital trading platform featuring real-time candlestick charts, technical indicators, drawing tools, market selection, deposit and withdrawal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
